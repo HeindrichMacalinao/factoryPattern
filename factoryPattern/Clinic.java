@@ -38,6 +38,7 @@ public class Clinic {
                     break;
                 default:
                     System.out.println("Invalid. Please Select 1, 2, or 3");
+                    break;
             }
 
             if(pet != null) {
@@ -54,6 +55,7 @@ public class Clinic {
                 }
             }
         } while (choice != 3);
+
         input.close();
     }
 }
